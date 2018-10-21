@@ -1,0 +1,33 @@
+﻿@charset 'utf-8';
+/* CSS reset */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,span,dl,dt,dd,button,input{
+	margin:0;padding:0;border:0;
+} 
+ul,ol{
+	list-style-type:none;
+} 
+i,em,b,strong{
+	font-style: normal;
+}
+img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+select,input,img,select{
+	vertical-align:middle;
+} 
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1}
+html,body{
+	width: 100%;
+}
+body{
+	max-width: 750px; 
+    margin: 0 auto;
+    font-family:-apple-system-font,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
